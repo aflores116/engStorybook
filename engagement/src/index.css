@@ -17,10 +17,10 @@ code {
 .page{background:#E0C9A6;}
 .page.page--cover{display:flex !important; min-height:600px; align-self:center; justify-content:center;  text-align:center; color:#e0c9a6; font-size:1.3rem;     font-family: 'Dancing Script', cursive; background-image:url('./assets/img/book-cover.jpg'); background-size:cover; margin: 0 auto;}
 .page.page--backcover{background-image:url('./assets/img/book-cover.jpg'); background-size:cover;}
-h1{align-self:center; padding-left:40px;}
+h1{align-self:center; padding-left:40px; font-size:1.5rem;}
 @media(min-width:48em){
   h1{
-
+    font-size:2.5rem;
   }
 }
 h2{padding:0 0 10px 0; font-size:.9rem; border-bottom:4px solid #902225;}
@@ -98,4 +98,9 @@ blockquote{
  
   bottom:20px;
   right:20px;
+}
+
+audio{
+  width:100%;
+  height:100px;
 }
