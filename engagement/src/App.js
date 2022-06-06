@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import HTMLFlipBook from "react-pageflip";
-import { Test } from './Test.js';
+import { AudioPlayer } from './AudioPlayer.js';
 
 function MyBook(props) {
   return (
@@ -24,25 +23,34 @@ function MyBook(props) {
             On July 1st, I encountered a post that would later change my life on r/foreveralone. 
         </p>
         <p> I remember being capivated by your post and quickly sent you a message on reddit, surprisingly you replied the same day. </p>
-        <p>The very next day, we switched over to discord after asking you for your username</p>
+        <p>The very next day, we switched over to discord after asking you for your username. When I saw your profile picture my heart skipped a few beats.</p>
         
       </div>
       </div>
       <div className="page">
         <div className="page__inner">
         <h2>Discord</h2>
-        <p>Once we moved to discord, we shared our names which each other and I remember looking at your profile picture and thinking to myself that you were very pretty and you called me handsome.</p>
-        <p>
-          We talked everyday and revealed so much about each other. During that period, you were very sad and inside your shell.
-        </p>
-        <p>
-          I also couldn't read you at all so I wasn't sure if you were interested in me or not. but the more we excahnged in conversation, the more I was into you and I also discovered your love for skyrim.
-        </p>
+        <p>During the next few days and weeks on discord, I would eagerly await for your messages because I honestly had a great time talking to you. </p>
+        <p>With each passing day, I learned more and more about you such as:</p>
+        <ul>
+          <li>Your dark humor</li>
+          <li>Your fears in relationships</li>
+          <li>A few of your favorite games</li>
+          <li>your goals in life</li>
+          <li>The reason for your depression at the time</li>
+          <li>How much of a total goth you are</li>
+          <li>How much of a chef's kiss you are</li>
+          <li>Your ex and a few issues with him</li>
+          <li>How much of a sweet woman you are</li>
+          <li>...how I was falling for you</li>
+        </ul>
+        <p>At the same time, I wasn't sure if you felt the same way about me due to your short responses, to which you apologized and told me that you were inside your shell and sad.</p>
+
         </div>
       </div>
       <div className="page">
         <div className="page__inner">
-          <h2>Breakthrough</h2>
+          <h2>Breaking the Shell</h2>
           <p>
             After a while, I got you out of your shell. Not only did I get your number at a later point but we also started dating, got to voice call and video chat on discord or facetime. I got to know you more and more
           </p>
@@ -55,18 +63,23 @@ function MyBook(props) {
             <span className='new-line'>every minute "</span>
             <span className='new-line'>- Mark Anthony</span>
           </blockquote>
-          <p>After a while, you came to visit me and I went to visit you at a later point!</p>
+          <p>At a later time we would travel to see each other. When I went to pick you up at the airport for the first time, I felt butterflies in my stomach.
+          Having you in my arms, waking up next to you, being able to kiss you, being able to look into your eyes and tell you that I love are my favorite things in life</p>
+          <p>
+            Flying over to you left me a bit timid because I was staying at your place, somewhere new for me. There was so much I wanted to say, but I couldn't bring myself to say them or ask.
+          </p>
+
         </div>
       </div>
       <div className="page">
         <div className="page__inner">
-        <h2>Romance</h2>
-          <p>
-            After getting to know each other more, you flew over to see me. I took you to see downtown, we got KBBQ, and the whole time we spent it making out with each other, secually charged and frustrated. Embarrasingly enough, I cut myself while I manscaping a day or two before you flew in and you had your issues too.
+          <h2>The hard parts</h2>
+          <p>In my opinion,no relationship is easy. Relationships are not supposed to be too easy, why? because we learn a lot about each other through the nice times, and the difficult times.
           </p>
-          <p>
-           when it was then my turn to fly to you, and I was a total bitch when I was with you. I was somewhere new and didn't feel like I was in my element to be me. One thing that I did love, is that I met our little Boba. The funny thing is that you cut yourself that time
+          <p>Remember February? I do, it was one of the scariest moments in my life because I almost lost the I love.
           </p>
+          <p>I'm glad I didn't because life without you would suck.</p>
+
         </div>
       </div>
       <div className="page">
@@ -96,7 +109,7 @@ function MyBook(props) {
         </div>
       </div>
     </HTMLFlipBook>
-    
+    <AudioPlayer />
     </>
   );
 }
