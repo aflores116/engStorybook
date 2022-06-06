@@ -102,7 +102,7 @@ function MyBook(props) {
       </div>
       <div className="page">
         <div className="page__inner">
-          <h2>The End...</h2>
+          <h2>The End....</h2>
           <p>
           Babe, can you please turn to look at me right now?
           </p>
