@@ -5,7 +5,7 @@ import { AudioPlayer } from './AudioPlayer.js';
 function MyBook(props) {
   return (
     <>
-    <HTMLFlipBook width={600} height={800}>
+    <HTMLFlipBook width={600} height={800} >
       
       <div className="page page--table">
 
@@ -214,7 +214,6 @@ function MyBook(props) {
         </div>
       </div>
     </HTMLFlipBook>
-    <AudioPlayer />
     </>
   );
 }
