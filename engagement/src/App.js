@@ -7,7 +7,7 @@ function MyBook(props) {
     <>
     <HTMLFlipBook width={600} height={800}>
       <div className="page page--table">
-    
+
       </div>
       <div className="page page--cover">
         <h1 className="book-title">
@@ -15,6 +15,40 @@ function MyBook(props) {
           <span className='new-line'>Angel & Stephanie</span>
          </h1>
          
+      </div>
+      <div className="page">
+        <div className="page__inner">
+          <h2>Index</h2>
+         <ul>
+           <li>
+            Page 1........Index
+           </li>
+           <li>
+           Page 2........Chapter 2: In the beginning
+             </li>
+             <li>
+             Page 3........Chapter 3: Trappped in A Shell
+             </li>
+             <li>Page 4........Chapter 4: Breaking the Shell
+             
+             </li>
+             <li>
+             Page 5........Chapter 5: Traveling Over Earth and Water
+             </li>
+             <li>
+             Page 6........Chapter 6: In Dreams
+             </li>
+             <li>
+             Page 7........Chapter 7: the hard parts
+             </li>
+             <li>
+             Page 8........Chapter 8: To Do List With You
+             </li>
+             <li>
+             Page 8........Chapter 8: The End and a Beginning
+             </li>
+         </ul>
+        </div>
       </div>
       <div className="page">
       <div className="page__inner">
@@ -29,7 +63,7 @@ function MyBook(props) {
       </div>
       <div className="page">
         <div className="page__inner">
-        <h2>Discord</h2>
+        <h2>Trapped in A Shell</h2>
         <p>During the next few days and weeks on discord, I would eagerly await for your messages because I honestly had a great time talking to you. </p>
         <p>With each passing day, I learned more and more about you such as:</p>
         <ul>
@@ -52,7 +86,7 @@ function MyBook(props) {
         <div className="page__inner">
           <h2>Breaking the Shell</h2>
           <p>
-            After a while, I got you out of your shell. Not only did I get your number at a later point but we also started dating, got to voice call and video chat on discord or facetime. I got to know you more and more
+            After a while, I got you out of your shell. Not only did I get your number at a later point but we also started dating, got to voice call and video chat on both discord and/or phones. I got to know you more and more
           </p>
           <p>During this time, you sent me a quote by Mark Anthony,</p>
           <blockquote>
@@ -63,12 +97,32 @@ function MyBook(props) {
             <span className='new-line'>every minute "</span>
             <span className='new-line'>- Mark Anthony</span>
           </blockquote>
+         
+        </div>
+      </div>
+      <div className="page">
+        <div className="page__inner">
+          <h2>Traveling Over Earth and Water</h2>
           <p>At a later time we would travel to see each other. When I went to pick you up at the airport for the first time, I felt butterflies in my stomach.
-          Having you in my arms, waking up next to you, being able to kiss you, being able to look into your eyes and tell you that I love are my favorite things in life</p>
+           I've realized something that day, having you in my arms, waking up next to you, being able to kiss you, being able to look into your eyes and tell you that I love are my favorite things in life</p>
           <p>
-            Flying over to you left me a bit timid because I was staying at your place, somewhere new for me. There was so much I wanted to say, but I couldn't bring myself to say them or ask.
+            the next time I saw you, I flew over to you. While boarding my plane, I was excited, nervous and I felt a few butterflies. When I stepped outside the airport, I felt a whorde of butterflies in my stomach.
+            When I finally saw you, I just wanted to get you out of the car and kiss the hell out of you.
           </p>
-
+          <p>I was very timid that time I saw you because it was a completely new area for me. I even got to meet the cute little Boba the corgi!</p>
+        </div>
+      </div>
+      <div className="page">
+        <div className="page__inner">
+          <h2>In Dreams</h2>
+          <p>
+            One night, we were laying on your bed talking about what type of food we would do for our wedding venue, where we would have it at, for how many people, and we both 
+            decided that we would have a small venue outside with few guests, after we would go to a brazilian steakhouse with our attendees.
+          </p>
+          <p>
+              We then talked about proposal rings, you described to me what kind of ring you wanted, and I completely blundered by not taking notes on the ring. Instead, I was thinking
+              that you are the woman I want to be with forever.
+          </p>
         </div>
       </div>
       <div className="page">
@@ -76,15 +130,15 @@ function MyBook(props) {
           <h2>The hard parts</h2>
           <p>In my opinion,no relationship is easy. Relationships are not supposed to be too easy, why? because we learn a lot about each other through the nice times, and the difficult times.
           </p>
-          <p>Remember February? I do, it was one of the scariest moments in my life because I almost lost the I love.
+          <p>Remember February? I do, it was one of the scariest moments in my life because I almost lost the person I love, you.
           </p>
           <p>I'm glad I didn't because life without you would suck.</p>
-
         </div>
       </div>
+      
       <div className="page">
         <div className="page__inner">
-        <h2>Things I want to do with you</h2>
+        <h2>To Do List With You</h2>
          <ul>
            <li>have late night drive dates around the city</li>
            <li>cuddle</li>
@@ -96,16 +150,23 @@ function MyBook(props) {
            <li>Play games together</li>
            <li>Go on walks with you and Boba</li>
            <li>Go grocery shopping together</li>
+           <li>Propose</li>
+           <li>Marry</li>
            <li>.....and more</li>
          </ul>
         </div>
       </div>
       <div className="page">
         <div className="page__inner">
-          <h2>The End..</h2>
+          <h2>The End and a Beginning</h2>
           <p>
-          Babe, can you please turn to look at me right now?
+            We've been through a ton of things together and I hope to go through more with you. Thank you for always being there and never giving up.
           </p>
+          <div className='divider'>
+            <p>
+              <strong>Babe, can you please turn to look at me right now?</strong>
+            </p>
+          </div>
         </div>
       </div>
     </HTMLFlipBook>
