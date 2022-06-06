@@ -16,10 +16,27 @@ code {
 }
 .page{background:#E0C9A6;}
 .page.page--cover{display:flex !important; min-height:600px; align-self:center; justify-content:center;  text-align:center; color:#e0c9a6; font-size:1.3rem;     font-family: 'Dancing Script', cursive; background-image:url('./assets/img/book-cover.jpg'); background-size:cover; margin: 0 auto;}
+.page.page--backcover{background-image:url('./assets/img/book-cover.jpg'); background-size:cover;}
 h1{align-self:center; padding-left:40px;}
-h2{padding:0 0 10px 0;border-bottom:4px solid #902225;}
+@media(min-width:48em){
+  h1{
+
+  }
+}
+h2{padding:0 0 10px 0; font-size:.9rem; border-bottom:4px solid #902225;}
+@media(min-width:48em){
+  h2{
+    font-size:1rem;
+  }
+}
 .page.page--table{background-image: url('./assets/img/background.jpg');}
-.page__inner{ position:relative; height:100%; padding:10px;  font-size:1rem; font-weight:600;      font-family: 'Dancing Script', cursive; font-family: 'Nunito', sans-serif;}
+.page__inner{ max-width:358px; position:relative; height:100%; padding:10px;  font-size:.9rem!important; font-weight:600;      font-family: 'Dancing Script', cursive; font-family: 'Nunito', sans-serif;}
+@media(min-width:48em){
+  .page__inner{
+    max-width:none;
+    font-size:1rem;
+  }
+}
 .book-title{}
 .new-line{display:block;}
 .--left{
@@ -32,6 +49,13 @@ box-shadow: inset -7px 0 30px -7px rgba(0,0,0,.4);
 .index-listing{
   margin:0 0 10-0px 0;
   list-style:none;
+  font-size:.9rem;
+}
+@media(min-width:48em){
+  .page__inner{
+    max-width:none;
+    font-size:1rem;
+  }
 }
 .index-item{
   margin:0 0 20px 0;
@@ -39,7 +63,12 @@ box-shadow: inset -7px 0 30px -7px rgba(0,0,0,.4);
 blockquote{
   text-align:center;
   color:#902225;
-  font-size:1.5rem;
+  font-size:1rem;
+}
+@media(min-width:48em){
+  blockquote{
+    font-size:.9rem;
+  }
 }
 .divider{
   color:#902225;
@@ -51,6 +80,11 @@ blockquote{
 
 .pagination{
   position:absolute;
+}
+@media(min-width:48em){
+  .page__inner{
+    max-width:none;
+  }
 }
 .--left .pagination{
   display:flex;

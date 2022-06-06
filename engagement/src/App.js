@@ -6,6 +6,7 @@ function MyBook(props) {
   return (
     <>
     <HTMLFlipBook width={600} height={800}>
+      
       <div className="page page--table">
 
       </div>
@@ -193,6 +194,23 @@ function MyBook(props) {
           <div className="pagination">
             <p>Page 9</p>
           </div>
+        </div>
+      </div>
+      <div className="page">
+        <div className="page__inner">
+          <h2>Seriously, turn around</h2>
+        
+          <div className='divider'>
+            <p>
+              <strong>Babe, can you please turn to look at me right now?</strong>
+            </p>
+          </div>
+        
+        </div>
+      </div>
+      <div className="page page--backcover">
+        <div className="page__inner">
+        
         </div>
       </div>
     </HTMLFlipBook>
