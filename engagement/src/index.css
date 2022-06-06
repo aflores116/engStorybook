@@ -19,7 +19,7 @@ code {
 h1{align-self:center; padding-left:40px;}
 h2{padding:0 0 10px 0;border-bottom:4px solid #902225;}
 .page.page--table{background-image: url('./assets/img/background.jpg');}
-.page__inner{ padding:10px;  font-size:1rem; font-weight:600;      font-family: 'Dancing Script', cursive; font-family: 'Nunito', sans-serif;}
+.page__inner{ position:relative; height:100%; padding:10px;  font-size:1rem; font-weight:600;      font-family: 'Dancing Script', cursive; font-family: 'Nunito', sans-serif;}
 .book-title{}
 .new-line{display:block;}
 .--left{
@@ -28,6 +28,13 @@ box-shadow: inset -7px 0 30px -7px rgba(0,0,0,.4);
 }
 .--right{
   box-shadow: inset 7px 0 30px -7px rgba(0,0,0,.4);
+}
+.index-listing{
+  margin:0 0 10-0px 0;
+  list-style:none;
+}
+.index-item{
+  margin:0 0 20px 0;
 }
 blockquote{
   text-align:center;
@@ -40,4 +47,21 @@ blockquote{
   text-align:center;
   border-top: 3px solid #902225;
   border-bottom: 3px solid #902225;
+}
+
+.pagination{
+  position:absolute;
+}
+.--left .pagination{
+  display:flex;
+  justify-content: start;
+  bottom:20px;
+  left:20px;
+}
+.--right .pagination{
+  display:flex;
+  justify-content: end;
+ 
+  bottom:20px;
+  right:20px;
 }
