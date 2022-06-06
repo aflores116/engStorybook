@@ -11,59 +11,66 @@ function MyBook(props) {
       </div>
       <div className="page page--cover">
         <h1 className="book-title">
-          <span className='new-line'>And ever After</span>
+          <span className='new-line'>An</span>
           <span className='new-line'>Angel & Stephanie</span>
+          <span className='new-line'>Story</span>
          </h1>
          
       </div>
       <div className="page">
         <div className="page__inner">
           <h2>Index</h2>
-         <ul>
-           <li>
+         <ul className="index-listing">
+           <li className='index-item'>
             Page 1........Index
            </li>
-           <li>
-           Page 2........Chapter 2: In the beginning
+           <li className='index-item'>
+           Page 2........Chapter 1: In the beginning
              </li>
-             <li>
-             Page 3........Chapter 3: Trappped in A Shell
+             <li className='index-item'>
+             Page 3........Chapter 2: Trappped in A Shell
              </li>
-             <li>Page 4........Chapter 4: Breaking the Shell
+             <li className='index-item'>Page 4........Chapter 3: Breaking the Shell
              
              </li>
-             <li>
-             Page 5........Chapter 5: Traveling Over Earth and Water
+             <li className='index-item'>
+             Page 5........Chapter 4: Traveling Over Earth and Water
              </li>
-             <li>
-             Page 6........Chapter 6: In Dreams
+             <li className='index-item'>
+             Page 6........Chapter 5: In Dreams
              </li>
-             <li>
-             Page 7........Chapter 7: the hard parts
+             <li className='index-item'>
+             Page 7........Chapter 6: the hard parts
              </li>
-             <li>
-             Page 8........Chapter 8: To Do List With You
+             <li className='index-item'>
+             Page 8........Chapter 7: To Do List With You
              </li>
-             <li>
+             <li className='index-item'>
              Page 8........Chapter 8: The End and a Beginning
              </li>
          </ul>
+         <AudioPlayer />
+          <div className="pagination">
+            <p>Page 1</p>
+          </div>
         </div>
       </div>
       <div className="page">
       <div className="page__inner">
-        <h2>In the Beginning...</h2>
+        <h2>CH1: In the Beginning...</h2>
         <p>
             On July 1st, I encountered a post that would later change my life on r/foreveralone. 
         </p>
         <p> I remember being capivated by your post and quickly sent you a message on reddit, surprisingly you replied the same day. </p>
         <p>The very next day, we switched over to discord after asking you for your username. When I saw your profile picture my heart skipped a few beats.</p>
-        
+        <div className="pagination">
+            <p>Page 2</p>
+          </div>
       </div>
       </div>
       <div className="page">
         <div className="page__inner">
-        <h2>Trapped in A Shell</h2>
+        <h2>CH2: Trapped in A Shell</h2>
         <p>During the next few days and weeks on discord, I would eagerly await for your messages because I honestly had a great time talking to you. </p>
         <p>With each passing day, I learned more and more about you such as:</p>
         <ul>
@@ -79,12 +86,14 @@ function MyBook(props) {
           <li>...how I was falling for you</li>
         </ul>
         <p>At the same time, I wasn't sure if you felt the same way about me due to your short responses, to which you apologized and told me that you were inside your shell and sad.</p>
-
+        <div className="pagination">
+            <p>Page 3</p>
+          </div>
         </div>
       </div>
       <div className="page">
         <div className="page__inner">
-          <h2>Breaking the Shell</h2>
+          <h2>CH3: Breaking the Shell</h2>
           <p>
             After a while, I got you out of your shell. Not only did I get your number at a later point but we also started dating, got to voice call and video chat on both discord and/or phones. I got to know you more and more
           </p>
@@ -97,12 +106,14 @@ function MyBook(props) {
             <span className='new-line'>every minute "</span>
             <span className='new-line'>- Mark Anthony</span>
           </blockquote>
-         
+          <div className="pagination">
+            <p>Page 4</p>
+          </div>
         </div>
       </div>
       <div className="page">
         <div className="page__inner">
-          <h2>Traveling Over Earth and Water</h2>
+          <h2>CH4: Traveling Over Earth and Water</h2>
           <p>At a later time we would travel to see each other. When I went to pick you up at the airport for the first time, I felt butterflies in my stomach.
            I've realized something that day, having you in my arms, waking up next to you, being able to kiss you, being able to look into your eyes and tell you that I love are my favorite things in life</p>
           <p>
@@ -110,11 +121,14 @@ function MyBook(props) {
             When I finally saw you, I just wanted to get you out of the car and kiss the hell out of you.
           </p>
           <p>I was very timid that time I saw you because it was a completely new area for me. I even got to meet the cute little Boba the corgi!</p>
+          <div className="pagination">
+            <p>Page 5</p>
+          </div>
         </div>
       </div>
       <div className="page">
         <div className="page__inner">
-          <h2>In Dreams</h2>
+          <h2>CH5: In Dreams</h2>
           <p>
             One night, we were laying on your bed talking about what type of food we would do for our wedding venue, where we would have it at, for how many people, and we both 
             decided that we would have a small venue outside with few guests, after we would go to a brazilian steakhouse with our attendees.
@@ -123,22 +137,28 @@ function MyBook(props) {
               We then talked about proposal rings, you described to me what kind of ring you wanted, and I completely blundered by not taking notes on the ring. Instead, I was thinking
               that you are the woman I want to be with forever.
           </p>
+          <div className="pagination">
+            <p>Page 6</p>
+          </div>
         </div>
       </div>
       <div className="page">
         <div className="page__inner">
-          <h2>The hard parts</h2>
+          <h2>CH6: The hard parts</h2>
           <p>In my opinion,no relationship is easy. Relationships are not supposed to be too easy, why? because we learn a lot about each other through the nice times, and the difficult times.
           </p>
           <p>Remember February? I do, it was one of the scariest moments in my life because I almost lost the person I love, you.
           </p>
           <p>I'm glad I didn't because life without you would suck.</p>
+          <div className="pagination">
+            <p>Page 7</p>
+          </div>
         </div>
       </div>
       
       <div className="page">
         <div className="page__inner">
-        <h2>To Do List With You</h2>
+        <h2>CH7: To Do List With You</h2>
          <ul>
            <li>have late night drive dates around the city</li>
            <li>cuddle</li>
@@ -154,11 +174,14 @@ function MyBook(props) {
            <li>Marry</li>
            <li>.....and more</li>
          </ul>
+         <div className="pagination">
+            <p>Page 8</p>
+          </div>
         </div>
       </div>
       <div className="page">
         <div className="page__inner">
-          <h2>The End and a Beginning</h2>
+          <h2>CH8: The End and a Beginning</h2>
           <p>
             We've been through a ton of things together and I hope to go through more with you. Thank you for always being there and never giving up.
           </p>
@@ -166,6 +189,9 @@ function MyBook(props) {
             <p>
               <strong>Babe, can you please turn to look at me right now?</strong>
             </p>
+          </div>
+          <div className="pagination">
+            <p>Page 9</p>
           </div>
         </div>
       </div>
