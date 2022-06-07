@@ -47,7 +47,7 @@ function MyBook(props) {
              Page 8........Chapter 7: To Do List With You
              </li>
              <li className='index-item'>
-             Page 8........Chapter 8: The End and a Beginning
+             Page 9+........Chapter 8: The End and a Beginning
              </li>
          </ul>
          <AudioPlayer />
@@ -57,13 +57,49 @@ function MyBook(props) {
         </div>
       </div>
       <div className="page">
+        <div className="page__inner">
+          <ul className='image-listing'>
+            <li className="image-item"><img src={require('./assets/img/image0.jpeg')} alt="fdf"/></li>
+            <li className="image-item"><img src={require('./assets/img/image4.jpeg')} alt="fdf"/></li>
+          
+          </ul>
+         
+        </div>
+      </div>
+      <div className="page">
+        <div className="page__inner">
+          <div className='hero'>
+          <ul className='image-listing'>
+            <li className="image-item"><img src={require('./assets/img/image1.jpeg')} alt="fdf"/></li>
+            <li className="image-item"><img src={require('./assets/img/IMG_1271.jpg')} alt="fdf"/></li>
+          </ul>
+          </div>
+         
+        </div>
+      </div>
+      <div className="page">
+        <div className="page__inner">
+        <ul className='image-listing'>
+            <li className="image-item"><img src={require('./assets/img/image2.jpeg')} alt="fdf"/></li>
+            <li className="image-item"><img src={require('./assets/img/image3.jpeg')} alt="fdf"/></li>
+          </ul>
+          <div className="pagination">
+            <p>Page 1</p>
+          </div>
+        </div>
+      </div>
+      <div className="page">
       <div className="page__inner">
         <h2>CH1: In the Beginning...</h2>
+       
         <p>
             On July 1st, I encountered a post that would later change my life on r/foreveralone. 
         </p>
         <p> I remember being capivated by your post and quickly sent you a message on reddit, surprisingly you replied the same day. </p>
         <p>The very next day, we switched over to discord after asking you for your username. When I saw your profile picture my heart skipped a few beats.</p>
+        {/* <img src={require('./assets/img/background.jpg')} /> */}
+        
+       
         <div className="pagination">
             <p>Page 2</p>
           </div>
@@ -72,6 +108,7 @@ function MyBook(props) {
       <div className="page">
         <div className="page__inner">
         <h2>CH2: Trapped in A Shell</h2>
+        
         <p>During the next few days and weeks on discord, I would eagerly await for your messages because I honestly had a great time talking to you. </p>
         <p>With each passing day, I learned more and more about you such as:</p>
         <ul>
@@ -150,7 +187,7 @@ function MyBook(props) {
           </p>
           <p>Remember February? I do, it was one of the scariest moments in my life because I almost lost the person I love, you.
           </p>
-          <p>I'm glad I didn't because life without you would suck.</p>
+          <p>I'm glad I didn't because life without you would suck. We just need to grow and learn together!</p>
           <div className="pagination">
             <p>Page 7</p>
           </div>
@@ -164,13 +201,16 @@ function MyBook(props) {
            <li>have late night drive dates around the city</li>
            <li>cuddle</li>
            <li>Cosplay</li>
-           <li>have date nights at restaurants, concerts (ghost, the weeknd, the midnight), or even daten ights at home where we watch anime, the office, or dinner</li>
+           <li>have date nights at restaurants, concerts (ghost, the weeknd, the midnight), or even date nights at home where we watch anime, the office, or dinner</li>
            <li>travel to Korea, Japan, the UK, and other places with you</li>
            <li>Have moments where we listen to music together and sing along</li>
            <li>Take turns playing Skyrim</li>
            <li>Play games together</li>
            <li>Go on walks with you and Boba</li>
            <li>Go grocery shopping together</li>
+           <li>Meet your Grandparents</li>
+           <li>Meet your family</li>
+           <li>Watch the Office and or Demon Slayer together</li>
            <li>Propose</li>
            <li>Marry</li>
            <li>.....and more</li>
@@ -202,10 +242,15 @@ function MyBook(props) {
         
           <div className='divider'>
             <p>
-              <strong>Babe, can you please turn to look at me right now?</strong>
+              <strong>Seriously, turn around</strong>
             </p>
           </div>
         
+        </div>
+      </div>
+      <div className="page">
+        <div className="page__inner">
+         
         </div>
       </div>
       <div className="page page--backcover">

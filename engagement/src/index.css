@@ -14,93 +14,169 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.page{background:#E0C9A6;}
-.page.page--cover{display:flex !important; min-height:600px; align-self:center; justify-content:center;  text-align:center; color:#e0c9a6; font-size:1.3rem;     font-family: 'Dancing Script', cursive; background-image:url('./assets/img/book-cover.jpg'); background-size:cover; margin: 0 auto;}
-.page.page--backcover{background-image:url('./assets/img/book-cover.jpg'); background-size:cover;}
-h1{align-self:center; padding-left:40px; font-size:1.5rem;}
-@media(min-width:48em){
-  h1{
-    font-size:2.5rem;
+
+.page {
+  background: #E0C9A6;
+}
+
+.page.page--cover {
+  display: flex !important;
+  min-height: 600px;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  color: #e0c9a6;
+  font-size: 1.3rem;
+  font-family: 'Dancing Script', cursive;
+  background-image: url('./assets/img/book-cover.jpg');
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.page.page--backcover {
+  background-image: url('./assets/img/book-cover.jpg');
+  background-size: cover;
+}
+
+h1 {
+  align-self: center;
+  padding-left: 40px;
+  font-size: 1.5rem;
+}
+
+@media(min-width:48em) {
+  h1 {
+    font-size: 2.5rem;
   }
 }
-h2{padding:0 0 10px 0; font-size:.9rem; border-bottom:4px solid #902225;}
-@media(min-width:48em){
-  h2{
-    font-size:1rem;
+
+h2 {
+  padding: 0 0 10px 0;
+  font-size: .9rem;
+  border-bottom: 4px solid #902225;
+}
+
+@media(min-width:48em) {
+  h2 {
+    font-size: 1rem;
   }
 }
-.page.page--table{background-image: url('./assets/img/background.jpg');}
-.page__inner{ max-width:358px; position:relative; height:100%; padding:10px;  font-size:.9rem!important; font-weight:600;      font-family: 'Dancing Script', cursive; font-family: 'Nunito', sans-serif;}
-@media(min-width:48em){
-  .page__inner{
-    max-width:none;
-    font-size:1rem;
+
+.page.page--table {
+  background-image: url('./assets/img/background.jpg');
+}
+
+.page__inner {
+  max-width: 358px;
+  position: relative;
+  height: 100%;
+  padding: 10px;
+  font-size: .9rem !important;
+  font-weight: 600;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Nunito', sans-serif;
+}
+
+@media(min-width:48em) {
+  .page__inner {
+    max-width: none;
+    font-size: 1rem;
   }
 }
-.book-title{}
-.new-line{display:block;}
-.--left{
-    border-right: 0;
-box-shadow: inset -7px 0 30px -7px rgba(0,0,0,.4);
+
+.book-title {}
+
+.new-line {
+  display: block;
 }
-.--right{
-  box-shadow: inset 7px 0 30px -7px rgba(0,0,0,.4);
+
+.--left {
+  border-right: 0;
+  box-shadow: inset -7px 0 30px -7px rgba(0, 0, 0, .4);
 }
-.index-listing{
-  margin:0 0 10-0px 0;
-  list-style:none;
-  font-size:.9rem;
+
+.--right {
+  box-shadow: inset 7px 0 30px -7px rgba(0, 0, 0, .4);
 }
-@media(min-width:48em){
-  .page__inner{
-    max-width:none;
-    font-size:1rem;
+
+.index-listing {
+  margin: 0 0 10-0px 0;
+  list-style: none;
+  font-size: .9rem;
+}
+
+@media(min-width:48em) {
+  .page__inner {
+    max-width: none;
+    font-size: 1rem;
   }
 }
-.index-item{
-  margin:0 0 20px 0;
+
+.index-item {
+  margin: 0 0 20px 0;
 }
-blockquote{
-  text-align:center;
-  color:#902225;
-  font-size:1rem;
+.image-listing{
+  max-width:600px;
+  display:flex;
+  flex-wrap:wrap;
+  padding:0;
+  margin:0;
+ 
 }
-@media(min-width:48em){
-  blockquote{
-    font-size:.9rem;
+.image-item{
+width:50%;
+ flex:0 1 0px;
+}
+blockquote {
+  text-align: center;
+  color: #902225;
+  font-size: 1rem;
+}
+
+@media(min-width:48em) {
+  blockquote {
+    font-size: .9rem;
   }
 }
-.divider{
-  color:#902225;
-  margin-top:80px;
-  text-align:center;
+
+.divider {
+  color: #902225;
+  margin-top: 80px;
+  text-align: center;
   border-top: 3px solid #902225;
   border-bottom: 3px solid #902225;
 }
 
-.pagination{
-  position:absolute;
-}
-@media(min-width:48em){
-  .page__inner{
-    max-width:none;
-  }
-}
-.--left .pagination{
-  display:flex;
-  justify-content: start;
-  bottom:20px;
-  left:20px;
-}
-.--right .pagination{
-  display:flex;
-  justify-content: end;
- 
-  bottom:20px;
-  right:20px;
+.pagination {
+  position: absolute;
 }
 
-audio{
-  width:100%;
-  height:100px;
+@media(min-width:48em) {
+  .page__inner {
+    max-width: none;
+  }
+}
+
+.--left .pagination {
+  display: flex;
+  justify-content: start;
+  bottom: 20px;
+  left: 20px;
+}
+
+.--right .pagination {
+  display: flex;
+  justify-content: end;
+
+  bottom: 20px;
+  right: 20px;
+}
+
+.audio h3 {
+  margin: 0 10px 0 0;
+}
+
+audio {
+  width: 100%;
+  height: 50px;
 }
