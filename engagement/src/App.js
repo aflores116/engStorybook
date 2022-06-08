@@ -1,10 +1,18 @@
 import './App.css';
 import HTMLFlipBook from "react-pageflip";
 import { AudioPlayer } from './AudioPlayer.js';
+import {Helmet} from "react-helmet";
 
 function MyBook(props) {
   return (
     <>
+     <div className="application">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>An Angel & Stephanie Story</title>
+            </Helmet>
+            
+        </div>
     <HTMLFlipBook width={600} height={700} showCover={true}>
       
       <div className="page page--cover">
