@@ -161,7 +161,7 @@ function MyBook(props) {
         <div className="page__inner">
           <h2>CH3: Breaking the Shell</h2>
           <p>
-            After a while, I got you out of your shell. Not only did I get your number at a later point but we also started dating, got to voice call and video chat on both discord and/or phones. I got to know you more and more
+            After a while, I got you out of your shell. Not only did I get your number at a later point in time but we also started dating, got to voice call and video chat on both discord/phone.
           </p>
           <p>During this time, you sent me a quote by Mark Anthony,</p>
           <blockquote>
@@ -234,6 +234,7 @@ function MyBook(props) {
            <li>Have moments where we listen to music together and sing along</li>
            <li>Take turns playing Skyrim</li>
            <li>Play games together</li>
+           <li>Get another corgi brother for Boba</li>
            <li>Go on walks with you and Boba</li>
            <li>Go grocery shopping together</li>
            <li>Meet your Grandparents</li>
@@ -254,12 +255,14 @@ function MyBook(props) {
           <p>
             We've been through a ton of things together and I hope to go through more with you. Thank you for always being there and never giving up.
           </p>
+          <h2 className="end">To be continued...</h2>
           <div className='divider'>
-            <p>
+            <h3>
               <strong>Babe, can you please turn to look at me right now?</strong>
-            </p>
+            </h3>
+            <p>Psst... This is your cue to turn around babe....</p>
           </div>
-          <p>The end</p>
+          
           <div className="pagination">
             <p>Page 9</p>
           </div>
