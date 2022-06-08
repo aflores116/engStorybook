@@ -17,6 +17,54 @@ code {
     monospace;
 }
 
+h1 {
+  align-self: center;
+  padding-left: 40px;
+  font-size: 1.5rem;
+}
+
+@media(min-width:48em) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  padding: 0 0 10px 0;
+  font-size: 1.2rem;
+  border-bottom: 4px solid #902225;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+@media(min-width:48em) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+blockquote {
+  text-align: center;
+  color: #902225;
+  font-size: 1rem;
+}
+
+@media(min-width:48em) {
+  blockquote {
+    font-size: .9rem;
+  }
+}
+
+audio {
+  width: 100%;
+  height: 50px;
+}
+img{
+  width:auto;
+  height:auto;
+  max-width:100%;
+}
+
 .page {
   background: #fdfaf7;
 }
@@ -41,29 +89,7 @@ code {
   background-repeat: no-repeat;
 }
 
-h1 {
-  align-self: center;
-  padding-left: 40px;
-  font-size: 1.5rem;
-}
 
-@media(min-width:48em) {
-  h1 {
-    font-size: 2.5rem;
-  }
-}
-
-h2 {
-  padding: 0 0 10px 0;
-  font-size: .9rem;
-  border-bottom: 4px solid #902225;
-}
-
-@media(min-width:48em) {
-  h2 {
-    font-size: 1rem;
-  }
-}
 
 /* .page.page--table {
   background-image: url('./assets/img/background.jpg');
@@ -78,6 +104,11 @@ h2 {
   font-weight: 600;
   font-family: 'Dancing Script', cursive;
   font-family: 'Nunito', sans-serif;
+}
+.page__inner.page__inner--centered{
+  display:flex;
+  justify-content: center;;
+  
 }
 
 @media(min-width:48em) {
@@ -123,6 +154,7 @@ h2 {
   margin: 0 0 10px 0;
 }
 .image-listing{
+  align-self:center;
   max-width:600px;
   display:flex;
   flex-wrap:wrap;
@@ -134,18 +166,22 @@ h2 {
 .image-item{
 width:50%;
  flex:0 1 auto;
+ text-align:center;
+ 
 }
-blockquote {
-  text-align: center;
-  color: #902225;
-  font-size: 1rem;
+.image-description{
+  position:relative;
+  font-size:.8rem;
+  margin:0;
+  background:#ccb677;
+  color:#000;
+  margin:-19px 0 0 0;
+  padding:5px;
+  z-index:200;
+  transform:rotate(5deg);
+  opacity:.9;
 }
 
-@media(min-width:48em) {
-  blockquote {
-    font-size: .9rem;
-  }
-}
 
 .divider {
   color: #902225;
@@ -189,12 +225,3 @@ blockquote {
   margin: 0 10px 0 0;
 }
 
-audio {
-  width: 100%;
-  height: 50px;
-}
-img{
-  width:auto;
-  height:auto;
-  max-width:100%;
-}

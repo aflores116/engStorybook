@@ -11,8 +11,7 @@ function MyBook(props) {
                 <meta charSet="utf-8" />
                 <title>An Angel & Stephanie Story</title>
             </Helmet>
-            
-        </div>
+     </div>
     <HTMLFlipBook width={600} height={700} showCover={true}>
       
       <div className="page page--cover">
@@ -67,11 +66,17 @@ function MyBook(props) {
         </div>
       </div>
       <div className="page">
-        <div className="page__inner">
+        <div className="page__inner page__inner--centered">
           <ul className='image-listing'>
-            <li className="image-item"><img src={require('./assets/img/image0.jpeg')} alt="fdf"/></li>
-            <li className="image-item"><img src={require('./assets/img/image4.jpeg')} alt="fdf"/></li>
-          
+            <li className="image-item">
+              <img className="image-item__image" src={require('./assets/img/image0.jpeg')} alt="white board"/>
+              <p className="image-description">You wrote this on my white board</p>
+            </li>
+            <li className="image-item">
+            <img src={require('./assets/img/image4.jpeg')} alt="fdf"/>
+            <p className="image-description">One of the very first selphies you sent</p>
+            </li>
+            
           </ul>
           <div className="pagination">
             <p>Gallery</p>
@@ -79,24 +84,36 @@ function MyBook(props) {
         </div>
       </div>
       <div className="page">
-        <div className="page__inner">
-          <div className='hero'>
+        <div className="page__inner page__inner--centered">
           <ul className='image-listing'>
-            <li className="image-item"><img src={require('./assets/img/image1.jpeg')} alt="fdf"/></li>
-            <li className="image-item"><img src={require('./assets/img/IMG_1271.jpg')} alt="fdf"/></li>
+            <li className="image-item">
+            <img className="image-item__image" src={require('./assets/img/image1.jpeg')} alt="fdf"/>
+              <p className="image-description">
+                Boba chilling on my lap
+              </p>
+            </li>
+            <li className="image-item">
+            <img className="image-item__image" src={require('./assets/img/IMG_1271.jpg')} alt="fdf"/>
+            <p className="image-description">Bobaroo and I</p>
+            </li>
           </ul>
           <div className="pagination">
             <p>Gallery</p>
-          </div>
           </div>
          
         </div>
       </div>
       <div className="page">
-        <div className="page__inner">
+        <div className="page__inner page__inner--centered">
         <ul className='image-listing'>
-            <li className="image-item"><img src={require('./assets/img/image2.jpeg')} alt="fdf"/></li>
-            <li className="image-item"><img src={require('./assets/img/image3.jpeg')} alt="fdf"/></li>
+            <li className="image-item">
+              <img className="image-item__image" src={require('./assets/img/image2.jpeg')} alt="fdf"/>
+              <p className="image-description">Us!</p>
+            </li>
+            <li className="image-item">
+              <img className="image-item__image" src={require('./assets/img/image3.jpeg')} alt="fdf"/>
+              <p className="image-description">Even more us!</p>
+            </li>
           </ul>
           <div className="pagination">
             <p>Gallery</p>
@@ -246,26 +263,10 @@ function MyBook(props) {
               <strong>Babe, can you please turn to look at me right now?</strong>
             </p>
           </div>
+          <p>The end</p>
           <div className="pagination">
             <p>Page 9</p>
           </div>
-        </div>
-      </div>
-      <div className="page">
-        <div className="page__inner">
-          <h2>Seriously, turn around</h2>
-        
-          <div className='divider'>
-            <p>
-              <strong>Seriously, turn around</strong>
-            </p>
-          </div>
-        
-        </div>
-      </div>
-      <div className="page">
-        <div className="page__inner">
-         
         </div>
       </div>
       <div className="page page--backcover">
