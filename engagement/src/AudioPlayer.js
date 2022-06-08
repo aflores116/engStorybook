@@ -11,9 +11,6 @@ export function AudioPlayer(){
             <source src={soundfile} type="audio/mpeg" />
             </audio>
         </div>
-
-
-     
         </>  
     );
 }
