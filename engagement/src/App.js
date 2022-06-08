@@ -5,13 +5,18 @@ import { AudioPlayer } from './AudioPlayer.js';
 function MyBook(props) {
   return (
     <>
-    <HTMLFlipBook width={600} height={800} showCover={true}>
+    <HTMLFlipBook width={600} height={700} showCover={true}>
       
       <div className="page page--cover">
         <h1 className="book-title">
           <span className='new-line'>An</span>
           <span className='new-line'>Angel & Stephanie</span>
           <span className='new-line'>Story</span>
+          <span className='new-line new-line--small'>
+          Tap on the right to turn the page 
+          <br></br>
+          Tap on the left to go back 
+          </span>
          </h1>
          
       </div>
