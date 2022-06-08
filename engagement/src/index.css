@@ -3,6 +3,7 @@
 
 body {
   background-image: url('./assets/img/background.jpg');
+  background-repeat: no-repeat;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -106,7 +107,7 @@ h2 {
 }
 
 .index-listing {
-  margin: 0 0 10-0px 0;
+  margin: 0 0 5px 0;
   list-style: none;
   font-size: .9rem;
 }
@@ -119,7 +120,7 @@ h2 {
 }
 
 .index-item {
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
 }
 .image-listing{
   max-width:600px;
@@ -156,6 +157,11 @@ blockquote {
 
 .pagination {
   position: absolute;
+  left:0;
+  bottom:0;
+  width:90%;
+  padding:0 10px;
+  border-top:2px solid #000;
 }
 
 @media(min-width:48em) {

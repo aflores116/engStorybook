@@ -49,7 +49,7 @@ function MyBook(props) {
              Page 8........Chapter 7: To Do List With You
              </li>
              <li className='index-item'>
-             Page 9+........Chapter 8: The End and a Beginning
+             Page 9........Chapter 8: The End and a Beginning
              </li>
          </ul>
          <AudioPlayer />
@@ -65,7 +65,9 @@ function MyBook(props) {
             <li className="image-item"><img src={require('./assets/img/image4.jpeg')} alt="fdf"/></li>
           
           </ul>
-         
+          <div className="pagination">
+            <p>Gallery</p>
+          </div>
         </div>
       </div>
       <div className="page">
@@ -75,6 +77,9 @@ function MyBook(props) {
             <li className="image-item"><img src={require('./assets/img/image1.jpeg')} alt="fdf"/></li>
             <li className="image-item"><img src={require('./assets/img/IMG_1271.jpg')} alt="fdf"/></li>
           </ul>
+          <div className="pagination">
+            <p>Gallery</p>
+          </div>
           </div>
          
         </div>
@@ -86,7 +91,7 @@ function MyBook(props) {
             <li className="image-item"><img src={require('./assets/img/image3.jpeg')} alt="fdf"/></li>
           </ul>
           <div className="pagination">
-            <p>Page 1</p>
+            <p>Gallery</p>
           </div>
         </div>
       </div>
