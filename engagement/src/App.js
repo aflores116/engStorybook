@@ -123,15 +123,11 @@ function MyBook(props) {
       <div className="page">
       <div className="page__inner">
         <h2>CH1: In the Beginning...</h2>
-       
         <p>
             On July 1st, I encountered a post that would later change my life on r/foreveralone. 
         </p>
         <p> I remember being capivated by your post and quickly sent you a message on reddit, surprisingly you replied the same day. </p>
         <p>The very next day, we switched over to discord after asking you for your username. When I saw your profile picture my heart skipped a few beats.</p>
-        {/* <img src={require('./assets/img/background.jpg')} /> */}
-        
-       
         <div className="pagination">
             <p>Page 2</p>
           </div>
