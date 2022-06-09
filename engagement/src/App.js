@@ -40,11 +40,11 @@ function MyBook(props) {
              <li className='index-item'>
              Page 3........Chapter 2: Slowly falling for you
              </li>
-             <li className='index-item'>Page 4........Chapter 3: Breaking the Shell
+             <li className='index-item'>Page 4........Chapter 3: You were worth every minute
              
              </li>
              <li className='index-item'>
-             Page 5........Chapter 4: Traveling Over Earth and Water
+             Page 5........Chapter 4: Traveling Over Land and Water
              </li>
              <li className='index-item'>
              Page 6........Chapter 5: In Dreams
@@ -199,7 +199,7 @@ function MyBook(props) {
         <div className="page__inner">
           <h2>CH5: In Dreams</h2>
           <p>
-            One night, we were laying on your bed talking about what type of food we would do for our wedding venue, where we would have it at, for how many people, and we both 
+            One night, we were laying on your bed talking about what type of food we would do for our wedding venue, where we would have it, for how many people, and we both 
             decided that we would have a small venue outside with few guests, after we would go to a brazilian steakhouse with our attendees.
           </p>
           <p>
