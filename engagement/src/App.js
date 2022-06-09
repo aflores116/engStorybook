@@ -199,8 +199,8 @@ function MyBook(props) {
         <div className="page__inner">
           <h2>CH5: In Dreams</h2>
           <p>
-            One night, we were laying on your bed talking about what type of food we would do for our wedding venue, where we would have it, for how many people, and we both 
-            decided that we would have a small venue outside with few guests, after we would go to a brazilian steakhouse with our attendees.
+            One night, we were laying on your bed talking about what type of food we would do for our wedding venue, where we would have it and for how many people.  We both 
+            decided that we would have a small venue outside with few guests and afterwards we would go to a brazilian steakhouse with our attendees.
           </p>
           <p>
               We then talked about proposal rings, you described to me what kind of ring you wanted, and I completely blundered by not taking notes on the ring. Instead, I was thinking
