@@ -38,7 +38,7 @@ function MyBook(props) {
            Page 2........Chapter 1: In the beginning
              </li>
              <li className='index-item'>
-             Page 3........Chapter 2: Trappped in A Shell
+             Page 3........Chapter 2: Slowly falling for you
              </li>
              <li className='index-item'>Page 4........Chapter 3: Breaking the Shell
              
@@ -124,10 +124,13 @@ function MyBook(props) {
       <div className="page__inner">
         <h2>CH1: In the Beginning...</h2>
         <p>
-            On July 1st, I encountered a post that would later change my life on r/foreveralone. 
+            On July 1st, I encountered a post on r/foreveralone, that would later change my life. 
         </p>
-        <p> I remember being capivated by your post and quickly sent you a message on reddit, surprisingly you replied the same day. </p>
-        <p>The very next day, we switched over to discord after asking you for your username. When I saw your profile picture my heart skipped a few beats.</p>
+        <p> 
+          I remember being capivated by your post and quickly sent you a message on reddit, surprisingly you replied the same day.
+         </p>
+        <p>The very next day, we switched over to discord after asking you for your username. When I saw your profile picture my heart skipped a few beats.
+        </p>
         <div className="pagination">
             <p>Page 2</p>
           </div>
@@ -135,21 +138,21 @@ function MyBook(props) {
       </div>
       <div className="page">
         <div className="page__inner">
-        <h2>CH2: Trapped in A Shell</h2>
+        <h2>CH2: Slowly falling for you</h2>
         
-        <p>During the next few days and weeks on discord, I would eagerly await for your messages because I honestly had a great time talking to you. </p>
-        <p>With each passing day, I learned more and more about you such as:</p>
+        <p>During the next few days and weeks on discord, I would eagerly await your messages because I honestly had a great time talking to you. </p>
+        <p>With each passing day, I learned more and more about you, such as:</p>
         <ul>
           <li>Your dark humor</li>
-          <li>Your fears in relationships</li>
           <li>A few of your favorite games</li>
-          <li>your goals in life</li>
+          <li>Your goals in life</li>
           <li>How much of a total goth you are</li>
           <li>How much of a chef's kiss you are</li>
           <li>How much of a sweet woman you are</li>
           <li>...how I was falling for you</li>
+          <li>...and more.</li>
         </ul>
-        <p>At the same time, I wasn't sure if you felt the same way about me, to which you apologized and told me that you were inside your shell.</p>
+        <p>At the time I wasn't sure if you felt the same way about me.</p>
         <div className="pagination">
             <p>Page 3</p>
           </div>
@@ -159,7 +162,7 @@ function MyBook(props) {
         <div className="page__inner">
           <h2>CH3: Breaking the Shell</h2>
           <p>
-            After a while, you got out of your shell. Not only did I get your number at a later point in time but we also started dating, got to voice call and video chat on both discord/phone.
+            After a while, we got comfortable with each other. Not only did I get your number at a later point in time but we also started dating, got to voice call and video chat on both discord/phone.
           </p>
           <p>During this time, you sent me a quote by Mark Anthony,</p>
           <blockquote>
