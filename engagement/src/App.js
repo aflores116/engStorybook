@@ -228,11 +228,11 @@ function MyBook(props) {
         <div className="page__inner">
         <h2>CH7: To Do List With You</h2>
          <ul>
-           <li>have late night drive dates around the city</li>
-           <li>cuddle</li>
+           <li>Have late night drive dates around the city</li>
+           <li>Cuddle</li>
            <li>Cosplay</li>
-           <li>have date nights at restaurants, concerts (ghost, the weeknd, the midnight), or even date nights at home where we watch anime, the office, or dinner</li>
-           <li>travel to Korea, Japan, the UK, and other places with you</li>
+           <li>Have date nights at restaurants, concerts (ghost, the weeknd, the midnight), or even date nights at home where we watch anime, the office, or dinner</li>
+           <li>Travel to Korea, Japan, the UK, and other places with you</li>
            <li>Have moments where we listen to music together and sing along</li>
            <li>Take turns playing Skyrim</li>
            <li>Play games together</li>
@@ -255,7 +255,7 @@ function MyBook(props) {
         <div className="page__inner">
           <h2>CH8: The End and a Beginning</h2>
           <p>
-            We've been through a ton of things together and I hope to go through more with you. Thank you for always being there and never giving up.
+            We've been through a ton of things together and I hope to go through many more with you. Thank you for always being there and never giving up.
           </p>
           <h2 className="end">To be continued...</h2>
           <div className='divider'>
