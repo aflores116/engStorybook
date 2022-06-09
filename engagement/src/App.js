@@ -203,7 +203,7 @@ function MyBook(props) {
             decided that we would have a small venue outside with few guests and afterwards we would go to a brazilian steakhouse with our attendees.
           </p>
           <p>
-              We then talked about proposal rings, you described to me what kind of ring you wanted, and I completely blundered by not taking notes on the ring. Instead, I was thinking
+              We then talked about proposal rings and you described to me what kind of ring you wanted. I completely blundered by not taking notes on the ring. Instead, I was thinking
               that you are the woman I want to be with forever.
           </p>
           <div className="pagination">
