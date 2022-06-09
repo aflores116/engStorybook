@@ -160,7 +160,7 @@ function MyBook(props) {
       </div>
       <div className="page">
         <div className="page__inner">
-          <h2>CH3: Breaking the Shell</h2>
+          <h2>CH3: You were worth every minute</h2>
           <p>
             After a while, we got comfortable with each other. Not only did I get your number at a later point in time but we also started dating, got to voice call and video chat on both discord/phone.
           </p>
@@ -182,7 +182,7 @@ function MyBook(props) {
       </div>
       <div className="page">
         <div className="page__inner">
-          <h2>CH4: Traveling Over Earth and Water</h2>
+          <h2>CH4: Traveling Over Land and Water</h2>
           <p>At a later time we would travel to see each other. When I went to pick you up at the airport for the first time, I felt butterflies in my stomach.
            I realized something that day: having you in my arms, waking up next to you, being able to kiss you, being able to look into your eyes and tell you that I love are my favorite things in life.</p>
           <p>
