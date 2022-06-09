@@ -40,11 +40,11 @@ function MyBook(props) {
              <li className='index-item'>
              Page 3........Chapter 2: Slowly falling for you
              </li>
-             <li className='index-item'>Page 4........Chapter 3: Breaking the Shell
+             <li className='index-item'>Page 4........Chapter 3: You were worth every minute
              
              </li>
              <li className='index-item'>
-             Page 5........Chapter 4: Traveling Over Earth and Water
+             Page 5........Chapter 4: Traveling Over Land and Water
              </li>
              <li className='index-item'>
              Page 6........Chapter 5: In Dreams
@@ -160,7 +160,7 @@ function MyBook(props) {
       </div>
       <div className="page">
         <div className="page__inner">
-          <h2>CH3: Breaking the Shell</h2>
+          <h2>CH3: You were worth every minute</h2>
           <p>
             After a while, we got comfortable with each other. Not only did I get your number at a later point in time but we also started dating, got to voice call and video chat on both discord/phone.
           </p>
@@ -173,6 +173,8 @@ function MyBook(props) {
             <span className='new-line'>every minute "</span>
             <span className='new-line'>- Mark Anthony</span>
           </blockquote>
+
+          <p>...and this is how I also felt about you.</p>
           <div className="pagination">
             <p>Page 4</p>
           </div>
@@ -180,11 +182,11 @@ function MyBook(props) {
       </div>
       <div className="page">
         <div className="page__inner">
-          <h2>CH4: Traveling Over Earth and Water</h2>
+          <h2>CH4: Traveling Over Land and Water</h2>
           <p>At a later time we would travel to see each other. When I went to pick you up at the airport for the first time, I felt butterflies in my stomach.
-           I've realized something that day, having you in my arms, waking up next to you, being able to kiss you, being able to look into your eyes and tell you that I love are my favorite things in life</p>
+           I realized something that day: having you in my arms, waking up next to you, being able to kiss you, being able to look into your eyes and tell you that I love are my favorite things in life.</p>
           <p>
-            the next time I saw you, I flew over to you. While boarding my plane, I was excited, nervous and I felt a few butterflies. When I stepped outside the airport, I felt a whorde of butterflies in my stomach.
+            The next time I saw you, I flew over to you. While boarding my plane, I was excited, nervous and I felt a few butterflies. As I stepped outside the airport, I felt a whorde of butterflies in my stomach.
             When I finally saw you, I just wanted to get you out of the car and kiss the hell out of you.
           </p>
           <p>I was very timid that time I saw you because it was a completely new area for me. I even got to meet the cute little Boba the corgi!</p>
@@ -197,11 +199,11 @@ function MyBook(props) {
         <div className="page__inner">
           <h2>CH5: In Dreams</h2>
           <p>
-            One night, we were laying on your bed talking about what type of food we would do for our wedding venue, where we would have it at, for how many people, and we both 
-            decided that we would have a small venue outside with few guests, after we would go to a brazilian steakhouse with our attendees.
+            One night, we were laying on your bed talking about what type of food we would do for our wedding venue, where we would have it and for how many people.  We both 
+            decided that we would have a small venue outside with few guests and afterwards we would go to a brazilian steakhouse with our attendees.
           </p>
           <p>
-              We then talked about proposal rings, you described to me what kind of ring you wanted, and I completely blundered by not taking notes on the ring. Instead, I was thinking
+              We then talked about proposal rings and you described to me what kind of ring you wanted. I completely blundered by not taking notes on the ring. Instead, I was thinking
               that you are the woman I want to be with forever.
           </p>
           <div className="pagination">
