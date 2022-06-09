@@ -260,9 +260,8 @@ function MyBook(props) {
           <h2 className="end">To be continued...</h2>
           <div className='divider'>
             <h3>
-              <strong>Babe, can you please turn to look at me right now?</strong>
+              <strong>Psst... This is your cue to turn around babe...</strong>
             </h3>
-            <p>Psst... This is your cue to turn around babe....</p>
           </div>
           
           <div className="pagination">
