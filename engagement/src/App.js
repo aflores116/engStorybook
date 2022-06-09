@@ -228,11 +228,11 @@ function MyBook(props) {
         <div className="page__inner">
         <h2>CH7: To Do List With You</h2>
          <ul>
-           <li>have late night drive dates around the city</li>
-           <li>cuddle</li>
+           <li>Have late night drive dates around the city</li>
+           <li>Cuddle</li>
            <li>Cosplay</li>
-           <li>have date nights at restaurants, concerts (ghost, the weeknd, the midnight), or even date nights at home where we watch anime, the office, or dinner</li>
-           <li>travel to Korea, Japan, the UK, and other places with you</li>
+           <li>Have date nights at restaurants, concerts (ghost, the weeknd, the midnight), or even date nights at home where we watch anime, the office, or dinner</li>
+           <li>Travel to Korea, Japan, the UK, and other places with you</li>
            <li>Have moments where we listen to music together and sing along</li>
            <li>Take turns playing Skyrim</li>
            <li>Play games together</li>
