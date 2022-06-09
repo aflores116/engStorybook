@@ -173,6 +173,8 @@ function MyBook(props) {
             <span className='new-line'>every minute "</span>
             <span className='new-line'>- Mark Anthony</span>
           </blockquote>
+
+          <p>...and this is how I also felt about you.</p>
           <div className="pagination">
             <p>Page 4</p>
           </div>
@@ -182,9 +184,9 @@ function MyBook(props) {
         <div className="page__inner">
           <h2>CH4: Traveling Over Earth and Water</h2>
           <p>At a later time we would travel to see each other. When I went to pick you up at the airport for the first time, I felt butterflies in my stomach.
-           I've realized something that day, having you in my arms, waking up next to you, being able to kiss you, being able to look into your eyes and tell you that I love are my favorite things in life</p>
+           I realized something that day: having you in my arms, waking up next to you, being able to kiss you, being able to look into your eyes and tell you that I love are my favorite things in life.</p>
           <p>
-            the next time I saw you, I flew over to you. While boarding my plane, I was excited, nervous and I felt a few butterflies. When I stepped outside the airport, I felt a whorde of butterflies in my stomach.
+            The next time I saw you, I flew over to you. While boarding my plane, I was excited, nervous and I felt a few butterflies. As I stepped outside the airport, I felt a whorde of butterflies in my stomach.
             When I finally saw you, I just wanted to get you out of the car and kiss the hell out of you.
           </p>
           <p>I was very timid that time I saw you because it was a completely new area for me. I even got to meet the cute little Boba the corgi!</p>
