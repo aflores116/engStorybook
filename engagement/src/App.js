@@ -255,7 +255,7 @@ function MyBook(props) {
         <div className="page__inner">
           <h2>CH8: The End and a Beginning</h2>
           <p>
-            We've been through a ton of things together and I hope to go through more with you. Thank you for always being there and never giving up.
+            We've been through a ton of things together and I hope to go through many more with you. Thank you for always being there and never giving up.
           </p>
           <h2 className="end">To be continued...</h2>
           <div className='divider'>
