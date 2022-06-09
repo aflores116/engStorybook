@@ -144,14 +144,12 @@ function MyBook(props) {
           <li>Your fears in relationships</li>
           <li>A few of your favorite games</li>
           <li>your goals in life</li>
-          <li>The reason for your depression at the time</li>
           <li>How much of a total goth you are</li>
           <li>How much of a chef's kiss you are</li>
-          <li>Your ex and a few issues with him</li>
           <li>How much of a sweet woman you are</li>
           <li>...how I was falling for you</li>
         </ul>
-        <p>At the same time, I wasn't sure if you felt the same way about me due to your short responses, to which you apologized and told me that you were inside your shell and sad.</p>
+        <p>At the same time, I wasn't sure if you felt the same way about me, to which you apologized and told me that you were inside your shell.</p>
         <div className="pagination">
             <p>Page 3</p>
           </div>
@@ -161,7 +159,7 @@ function MyBook(props) {
         <div className="page__inner">
           <h2>CH3: Breaking the Shell</h2>
           <p>
-            After a while, I got you out of your shell. Not only did I get your number at a later point in time but we also started dating, got to voice call and video chat on both discord/phone.
+            After a while, you got out of your shell. Not only did I get your number at a later point in time but we also started dating, got to voice call and video chat on both discord/phone.
           </p>
           <p>During this time, you sent me a quote by Mark Anthony,</p>
           <blockquote>
@@ -211,11 +209,10 @@ function MyBook(props) {
       <div className="page">
         <div className="page__inner">
           <h2>CH6: The hard parts</h2>
-          <p>In my opinion,no relationship is easy. Relationships are not supposed to be too easy, why? because we learn a lot about each other through the nice times, and the difficult times.
+          <p>
+            Relationships are not supposed to be too easy, why? because we learn a lot about each other through the nice times, and the difficult times.
           </p>
-          <p>Remember February? I do, it was one of the scariest moments in my life because I almost lost the person I love, you.
-          </p>
-          <p>I'm glad I didn't because life without you would suck. We just need to grow and learn together!</p>
+          <p>Life without you would suck so let's grow and learn together.</p>
           <div className="pagination">
             <p>Page 7</p>
           </div>
