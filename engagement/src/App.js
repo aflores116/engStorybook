@@ -35,12 +35,12 @@ function MyBook(props) {
             Page 1........Index
            </li>
            <li className='index-item'>
-           Page 2........Chapter 1: In the beginning
+           Page 2........Chapter 1: In the Beginning
              </li>
              <li className='index-item'>
-             Page 3........Chapter 2: Slowly falling for you
+             Page 3........Chapter 2: Slowly Falling for you
              </li>
-             <li className='index-item'>Page 4........Chapter 3: You were worth every minute
+             <li className='index-item'>Page 4........Chapter 3: You Were Worth Every Minute
              
              </li>
              <li className='index-item'>
@@ -50,7 +50,7 @@ function MyBook(props) {
              Page 6........Chapter 5: In Dreams
              </li>
              <li className='index-item'>
-             Page 7........Chapter 6: the hard parts
+             Page 7........Chapter 6: The Hard Parts
              </li>
              <li className='index-item'>
              Page 8........Chapter 7: To Do List With You
@@ -160,7 +160,7 @@ function MyBook(props) {
       </div>
       <div className="page">
         <div className="page__inner">
-          <h2>CH3: You were worth every minute</h2>
+          <h2>CH3: You Were Worth Every Minute</h2>
           <p>
             After a while, we got comfortable with each other. Not only did I get your number at a later point in time but we also started dating, got to voice call and video chat on both discord/phone.
           </p>
