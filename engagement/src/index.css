@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito:wght@400;700&display=swap');
 
+/* variables */
+:root{
+  --primary-color:#fdfaf7;
+  --secondary-color:#902225;
+  --base-color:#000;
+}
+
+/*styles*/
 body {
   background-image: url('./assets/img/background.jpg');
   background-repeat: no-repeat;
@@ -32,7 +40,7 @@ h1 {
 h2 {
   padding: 0 0 10px 0;
   font-size: 1.2rem;
-  border-bottom: 4px solid #902225;
+  border-bottom: 4px solid var(--secondary-color);
   font-family: 'Dancing Script', cursive;
 
 }
@@ -44,9 +52,23 @@ h2 {
 }
 
 blockquote {
+
+  position:relative;
+  width:30%;margin:0 auto;
   text-align: center;
-  color: #902225;
+  color:  var(--secondary-color);
   font-size: 1rem;
+  border-left:3px solid  var(--secondary-color);
+}
+blockquote::before{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:0;
+  width: 0;
+  height: 0;
+  border-top: 10px solid  var(--secondary-color);
+  border-right: 10px solid transparent;
 }
 
 @media(min-width:48em) {
@@ -66,7 +88,7 @@ img{
 }
 
 .page {
-  background: #fdfaf7;
+  background: var(--primary-color);
 }
 
 .page.page--cover {
@@ -167,28 +189,29 @@ img{
 width:50%;
  flex:0 1 auto;
  text-align:center;
- 
 }
 .image-description{
   position:relative;
   font-size:.8rem;
   margin:0;
   background:#ccb677;
-  color:#000;
+  color:var(--base-color);
   margin:-19px 0 0 0;
   padding:5px;
   z-index:200;
   transform:rotate(5deg);
   opacity:.9;
 }
-
+.image-item:nth-child(2) .image-description{
+  transform:rotate(-5deg);
+}
 
 .divider {
-  color: #902225;
+  color:  var(--secondary-color);
   margin-top: 80px;
   text-align: center;
-  border-top: 3px solid #902225;
-  border-bottom: 3px solid #902225;
+  border-top: 3px solid  var(--secondary-color);
+  border-bottom: 3px solid  var(--secondary-color);
 }
 
 .pagination {
@@ -197,7 +220,7 @@ width:50%;
   bottom:0;
   width:90%;
   padding:0 10px;
-  border-top:2px solid #000;
+  border-top:2px solid var(--base-color);
 }
 
 @media(min-width:48em) {
