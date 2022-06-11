@@ -131,6 +131,17 @@ function MyBook(props) {
          </p>
         <p>The very next day, we switched over to discord after asking you for your username. When I saw your profile picture my heart skipped a few beats.
         </p>
+        <ul className='image-listing'>
+            <li className="image-item">
+              <img className="image-item__image" src={require('./assets/img/image0.jpeg')} alt="white board"/>
+              <p className="image-description">You wrote this on my white board</p>
+            </li>
+            <li className="image-item">
+            <img src={require('./assets/img/image4.jpeg')} alt="fdf"/>
+            <p className="image-description">One of the very first selphies you sent</p>
+            </li>
+            
+          </ul>
         <div className="pagination">
             <p>Page 2</p>
           </div>
@@ -175,6 +186,7 @@ function MyBook(props) {
           </blockquote>
 
           <p>...and this is how I also felt about you.</p>
+          
           <div className="pagination">
             <p>Page 4</p>
           </div>
@@ -206,6 +218,16 @@ function MyBook(props) {
               We then talked about proposal rings and you described to me what kind of ring you wanted. I completely blundered by not taking notes on the ring. Instead, I was thinking
               that you are the woman I want to be with forever.
           </p>
+          <ul className='image-listing'>
+            <li className="image-item">
+              <img className="image-item__image" src={require('./assets/img/image2.jpeg')} alt="fdf"/>
+              <p className="image-description">Us!</p>
+            </li>
+            <li className="image-item">
+              <img className="image-item__image" src={require('./assets/img/image3.jpeg')} alt="fdf"/>
+              <p className="image-description">Even more us!</p>
+            </li>
+          </ul>
           <div className="pagination">
             <p>Page 6</p>
           </div>
@@ -218,6 +240,18 @@ function MyBook(props) {
             Relationships are not supposed to be too easy, why? because we learn a lot about each other through the nice times, and the difficult times.
           </p>
           <p>Life without you would suck so let's grow and learn together.</p>
+          <ul className='image-listing'>
+            <li className="image-item">
+            <img className="image-item__image" src={require('./assets/img/image1.jpeg')} alt="fdf"/>
+              <p className="image-description">
+                Boba chilling on my lap
+              </p>
+            </li>
+            <li className="image-item">
+            <img className="image-item__image" src={require('./assets/img/IMG_1271.jpg')} alt="fdf"/>
+            <p className="image-description">Bobaroo and I</p>
+            </li>
+          </ul>
           <div className="pagination">
             <p>Page 7</p>
           </div>
@@ -252,7 +286,7 @@ function MyBook(props) {
         </div>
       </div>
       <div className="page">
-        <div className="page__inner">
+        <div className="page__inner page__inner--bookmark">
           <h2>CH8: The End and a Beginning</h2>
           <p>
             We've been through a ton of things together and I hope to go through many more with you. Thank you for always being there and never giving up.
@@ -262,6 +296,9 @@ function MyBook(props) {
             <h3>
               <strong>Psst... This is your cue to turn around babe...</strong>
             </h3>
+          </div>
+          <div className="bookmark">
+              <p className="bookmark__content">Bookmark</p>
           </div>
           
           <div className="pagination">

@@ -3,9 +3,16 @@
 
 /* variables */
 :root{
+  /*themeing*/
   --primary-color:#fdfaf7;
-  --secondary-color:#902225;
+  --secondary-color:#c50017;
+  --tertiary-color:#b11226;
   --base-color:#000;
+  --light-color:#fff;
+  
+  /*typography*/
+  --primary-font: 'Dancing Script', cursive;
+  --secondary-font:'Nunito', sans-serif;
 }
 
 /*styles*/
@@ -99,7 +106,7 @@ img{
   text-align: center;
   color: #e0c9a6;
   font-size: 1.3rem;
-  font-family: 'Dancing Script', cursive;
+  font-family: var(--primary-font);
   background-image: url('./assets/img/book-cover.jpg');
   background-size: cover;
   margin: 0 auto;
@@ -124,8 +131,8 @@ img{
   padding: 10px;
   font-size: .9rem !important;
   font-weight: 600;
-  font-family: 'Dancing Script', cursive;
-  font-family: 'Nunito', sans-serif;
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: var(--secondary-font);
 }
 .page__inner.page__inner--centered{
   display:flex;
@@ -171,11 +178,32 @@ img{
     font-size: 1rem;
   }
 }
+.bookmark{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  right:-30px;
+  top:60%;
+  width:200px;
+  height:60px;
+  background:var(--tertiary-color);
+  text-align:center;
+  font-family:var(--primary-font);
+  font-size:2rem;
+  color:var(--light-color);
+  text-shadow:var(--base-color) 3px 3px 5px; 
+  box-shadow:var(--base-color) 10px 1px 10px;
+}
+.bookmark__content{
+  margin:0;
+}
 
 .index-item {
   margin: 0 0 10px 0;
 }
 .image-listing{
+  justify-content: center;;
   align-self:center;
   max-width:600px;
   display:flex;
@@ -186,7 +214,7 @@ img{
  
 }
 .image-item{
-width:50%;
+width:40%;
  flex:0 1 auto;
  text-align:center;
 }
@@ -229,6 +257,7 @@ width:50%;
   }
 }
 
+
 .--left .pagination {
   display: flex;
   justify-content: start;
@@ -252,4 +281,5 @@ width:50%;
   margin:0;
   font-size:3rem;
   border-bottom:none;
+  color:var(--secondary-color);
 }
