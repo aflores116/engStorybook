@@ -28,6 +28,11 @@ function MyBook(props) {
          
       </div>
       <div className="page">
+        <div className="page__inner page__inner--centered">
+          <h2>An<br></br> <span className="highlight">Angel & Stephanie</span><br></br> Story</h2>
+        </div>
+      </div>
+      <div className="page">
         <div className="page__inner">
           <h2>Index</h2>
          <ul className="index-listing">
@@ -62,61 +67,6 @@ function MyBook(props) {
          <AudioPlayer />
           <div className="pagination">
             <p>Page 1</p>
-          </div>
-        </div>
-      </div>
-      <div className="page">
-        <div className="page__inner page__inner--centered">
-          <ul className='image-listing'>
-            <li className="image-item">
-              <img className="image-item__image" src={require('./assets/img/image0.jpeg')} alt="white board"/>
-              <p className="image-description">You wrote this on my white board</p>
-            </li>
-            <li className="image-item">
-            <img src={require('./assets/img/image4.jpeg')} alt="fdf"/>
-            <p className="image-description">One of the very first selphies you sent</p>
-            </li>
-            
-          </ul>
-          <div className="pagination">
-            <p>Gallery</p>
-          </div>
-        </div>
-      </div>
-      <div className="page">
-        <div className="page__inner page__inner--centered">
-          <ul className='image-listing'>
-            <li className="image-item">
-            <img className="image-item__image" src={require('./assets/img/image1.jpeg')} alt="fdf"/>
-              <p className="image-description">
-                Boba chilling on my lap
-              </p>
-            </li>
-            <li className="image-item">
-            <img className="image-item__image" src={require('./assets/img/IMG_1271.jpg')} alt="fdf"/>
-            <p className="image-description">Bobaroo and I</p>
-            </li>
-          </ul>
-          <div className="pagination">
-            <p>Gallery</p>
-          </div>
-         
-        </div>
-      </div>
-      <div className="page">
-        <div className="page__inner page__inner--centered">
-        <ul className='image-listing'>
-            <li className="image-item">
-              <img className="image-item__image" src={require('./assets/img/image2.jpeg')} alt="fdf"/>
-              <p className="image-description">Us!</p>
-            </li>
-            <li className="image-item">
-              <img className="image-item__image" src={require('./assets/img/image3.jpeg')} alt="fdf"/>
-              <p className="image-description">Even more us!</p>
-            </li>
-          </ul>
-          <div className="pagination">
-            <p>Gallery</p>
           </div>
         </div>
       </div>
@@ -198,7 +148,7 @@ function MyBook(props) {
           <p>At a later time we would travel to see each other. When I went to pick you up at the airport for the first time, I felt butterflies in my stomach.
            I realized something that day: having you in my arms, waking up next to you, being able to kiss you, being able to look into your eyes and tell you that I love are my favorite things in life.</p>
           <p>
-            The next time I saw you, I flew over to you. While boarding my plane, I was excited, nervous and I felt a few butterflies. As I stepped outside the airport, I felt a whorde of butterflies in my stomach.
+            The next time I saw you, I flew over to you. While boarding my plane, I was excited, nervous and I felt a few butterflies. As I stepped outside the airport, I felt a horde of butterflies in my stomach.
             When I finally saw you, I just wanted to get you out of the car and kiss the hell out of you.
           </p>
           <p>I was very timid that time I saw you because it was a completely new area for me. I even got to meet the cute little Boba the corgi!</p>
@@ -224,9 +174,10 @@ function MyBook(props) {
               <p className="image-description">Us!</p>
             </li>
             <li className="image-item">
-              <img className="image-item__image" src={require('./assets/img/image3.jpeg')} alt="fdf"/>
-              <p className="image-description">Even more us!</p>
+            <img className="image-item__image" src={require('./assets/img/IMG_1271.jpg')} alt="fdf"/>
+            <p className="image-description">Bobaroo and I</p>
             </li>
+          
           </ul>
           <div className="pagination">
             <p>Page 6</p>
@@ -248,8 +199,8 @@ function MyBook(props) {
               </p>
             </li>
             <li className="image-item">
-            <img className="image-item__image" src={require('./assets/img/IMG_1271.jpg')} alt="fdf"/>
-            <p className="image-description">Bobaroo and I</p>
+              <img className="image-item__image" src={require('./assets/img/image3.jpeg')} alt="fdf"/>
+              <p className="image-description">Even more us!</p>
             </li>
           </ul>
           <div className="pagination">
